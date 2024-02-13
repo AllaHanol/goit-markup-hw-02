@@ -1,0 +1,120 @@
+/* Common styles */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+/* Header styles */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+}
+
+.studio-color-header {
+  color: #2e2f42;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.page-comunikation {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Hero section style */
+.section-hero {
+  background: #2e2f42;
+}
+.section-hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+}
+.oder-service-btn {
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.oder-service-btn:hover,
+.oder-service-btn:focus {
+  background: #404bbf;
+}
+/* Benefits section */
+.benefits-category {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.Benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+/* Our Team */
+.team-category {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-category-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* Our Portfolio */
+.portfolio-categori {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+/* Description */
+.page-footer {
+  background: #2e2f42;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
+.studio-color {
+  color: #ffffff;
+}
