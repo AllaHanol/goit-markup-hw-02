@@ -1,7 +1,8 @@
 /* Common styles */
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: #434455;
   background-color: #ffffff;
 }
 a {
@@ -21,6 +22,8 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 /* Header styles */
@@ -29,6 +32,8 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -39,7 +44,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -54,19 +59,22 @@ img {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 /* Hero section style */
 .section-hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 .oder-service-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
 }
@@ -82,22 +90,26 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .Benefits-text {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 /* Our Team */
 .team-category {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .team-category-text {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 /* Our Portfolio */
@@ -105,16 +117,19 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 /* Description */
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .studio-color {
