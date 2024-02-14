@@ -1,7 +1,7 @@
 /* Common styles */
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: #2e2f42;
   background-color: #ffffff;
 }
 a {
@@ -9,7 +9,7 @@ a {
 }
 ul,
 ol {
-  list-style: none;
+  list-style-type: none;
 }
 button {
   cursor: pointer;
@@ -17,10 +17,10 @@ button {
 img {
   display: block;
 }
-h2 {
+.sections-name {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
 }
 
 /* Header styles */
@@ -39,19 +39,24 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  color: #434455;
 }
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
+
+.adress-link:hover,
+.adress-link:focus {
+  color: #404bbf;
+}
 .page-comunikation {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  color: #434455;
 }
 /* Hero section style */
-.section-hero {
-  background: #2e2f42;
-}
 .section-hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -59,17 +64,18 @@ h2 {
   color: #ffffff;
 }
 .oder-service-btn {
-  width: 169px;
-  height: 56px;
-  background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
+  background: #4d5ae5;
 }
 .oder-service-btn:hover,
 .oder-service-btn:focus {
   background: #404bbf;
+}
+.section-hero {
+  background: #2e2f42;
 }
 /* Benefits section */
 .benefits-category {
@@ -106,9 +112,6 @@ h2 {
   color: #434455;
 }
 /* Description */
-.page-footer {
-  background: #2e2f42;
-}
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -116,4 +119,7 @@ h2 {
 }
 .studio-color {
   color: #ffffff;
+}
+.page-footer {
+  background: #2e2f42;
 }
