@@ -12,8 +12,6 @@ ol {
   list-style-type: none;
 }
 
-img {
-}
 .sections-name {
   font-weight: 700;
   font-size: 36px;
@@ -45,7 +43,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434343;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -56,11 +54,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.adress-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -160,6 +153,14 @@ img {
   color: #434455;
 }
 /* Description */
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .page-footer {
   background: #2e2f42;
 }
