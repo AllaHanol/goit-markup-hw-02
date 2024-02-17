@@ -43,7 +43,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434343;
+  color: #2e2f42;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -54,6 +54,9 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.adress-link {
+  color: #434455;
 }
 .adress-link:hover,
 .adress-link:focus {
